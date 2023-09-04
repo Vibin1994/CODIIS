@@ -1,12 +1,5 @@
 import React, {useState, useRef, useEffect} from 'react';
-import {
-  View,
-  StyleSheet,
-  Text,
-  Button,
-  FlatList,
-  TouchableOpacity,
-} from 'react-native';
+import {View, StyleSheet, Text, FlatList, TouchableOpacity} from 'react-native';
 import SignatureScreen from 'react-native-signature-canvas';
 import Share from 'react-native-share';
 import CustomButton from './ReusableComponents/CustomButton';
